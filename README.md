@@ -12,15 +12,15 @@ FONCTIONNEMENT DU JEU
 -	la touche espace pour descendre d’un coup  
 -	la touche P pour mettre le jeu en pause et ré-appuyez dessus pour continuer
 -	la touche R pour recommencer le jeu 
--	la touche X  pour afficher les 5 meilleurs scores
+-	les 5 meilleurs scores doivent sur la console de eclipse ou sur le terminal à la fin de la partie
 
 
 EXERCICE ARCHITECTURE 
 
-Pour suivre notre architecture, vous trouverez dans les fichiers, le fichier : “TetrisDiagram”. 
+Pour suivre notre architecture, vous trouverez dans les fichiers, le fichier : “TetrisProjectArchitecture”. 
 C’est un diagramme UML, en classe expliquant la structure de notre projet. Nous avons opter pour une architecture MVC. C’est-à-dire que nous avons la partie utilisateur et la partie interface,qui sont gérer par le contrôleur.
 
-Notre projet est composé de 3 classes principales. 
+Notre projet est composé de 3 ou 4 classes principales. 
 Nous avons les classes : 
 -	Shapes, la classe qui génère les formes de nos pieces (Tétrominos).
 -	Board, la classe qui s’occupe du fonctionnement du jeu.
@@ -40,6 +40,11 @@ I-> Interface Segregation Principle ->  l’utilisateur ne doit pas implémenter
 
 D - > Dependency Inversion Principle -> les classes du bas ne dépendent pas des classes du haut.  
 Il faut savoir que chacune de nos classes sont ordonné selon leur importance. 
+
+
+NB : Les 5 meilleures scores sont contenus dans un fichier text (scores.txt) dans le dossier Tetris. Lorsque la partie est finie, les 5 meilleurs sont stocké dans un tableau int, modifié s'il y a un nouveau score à ajouter, et sauvegarder dans le fichier text. Cependant nous notons que la sauvegarde ne marche.
+
+
 
 
 
