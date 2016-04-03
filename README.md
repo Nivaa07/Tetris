@@ -17,7 +17,7 @@ FONCTIONNEMENT DU JEU
 
 EXERCICE ARCHITECTURE 
 
-Pour suivre notre architecture, vous trouverez dans les fichiers, le fichier : “TetrisProjectArchitecture”. 
+Pour suivre notre architecture, vous trouverez dans les fichiers, le fichier : “TetrisDiagram”. 
 C’est un diagramme UML, en classe expliquant la structure de notre projet. Nous avons opter pour une architecture MVC. C’est-à-dire que nous avons la partie utilisateur et la partie interface,qui sont gérer par le contrôleur.
 
 Notre projet est composé de 3 classes principales. 
